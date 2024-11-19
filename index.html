@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <h1>Mi pagina web</h1>
+
+        <div class="container">
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#experiencia">Experiencia Laboral</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="section">
+            <div class="container">
+                <div class="intro">
+                    <h2>Hola, yo soy Axel Derfler</h2>
+                    <p>Mi nombre es Axel Derfler, soy un estudiante argentino de 17 años con un enfoque especializado en la reparación y mantenimiento de computadoras. Actualmente, estoy metido en el estudio del desarrollo de habilidades en programación para complementar mis conocimientos en hardware y software.</p>
+                </div>
+                <div class="image-box">
+                    <img src="/Imagenes/Foto.jpg" alt="Foto Personal">
+                </div>
+            </div>
+
+        <section id="habilidades" class="section">
+            <h2>Educacion y habilidades</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Colegio secundario</h3>
+                    <p>Técnica N°1 de Vicente Lopez. Eduardo Ader: Estudio la carrera de técnico programador</p>
+                </div>
+                <div class="skill">
+                    <h3>Estudio Particular</h3>
+                    <p>Técnico Informático: Estudio la reparación y mantenimiento del hardware y software de los equipos</p>
+                </div>
+                <div class="skill">
+                    <h3>Rapida adaptabilidad</h3>
+                    <p>Capacidad para ajustarme rápidamente a nuevas situaciones, asegurando un desempeño eficaz.</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Diseño Web</h3>
+                    <p>Creación de interfaces modernas y responsivas.</p>
+                </div>
+                <div class="skill">
+                    <h3>Desarrollo Frontend</h3>
+                    <p>HTML, CSS, JavaScript y frameworks modernos.</p>
+                </div>
+                <div class="skill">
+                    <h3>Resolución de Problemas</h3>
+                    <p>Habilidades analíticas para superar desafíos técnicos.</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="contenedor_hab">
+                <div class="sep1">
+                    <section class="habi">
+                        <h2 class="habi"><span style="color: #0004ff; font-size: 35px;">Mis habilidades Técnicas</span></h2>
+                        <h4>HTML</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje HTML" id="html-bar">50%</div>
+                        </div>
+                        <h4>CSS</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje css" id="css-bar"><span style="color: rgb(136, 255, 255);">50%</span></div>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje java" id="js-bar">30%</div>
+                        </div>
+                        <h4>HardWare</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje hardware" id="hardware-bar">90%</div>
+                        </div>
+                        <h4>SoftWare</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje software" id="software-bar">80%</div>
+                        </div>
+                    </section> 
+                </div>
+                <div class="sep2"> 
+                    <section class="habi">
+                        <h2><span style="color: #0004ff; font-size: 35px;">Mis habilidades</span></h2>
+                        <h4>Español</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje español">90%</div>
+                        </div>
+                        <h4>Inglés</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje ingles">50%</div>
+                        </div>
+                        <h4>Compromiso</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje compromiso">80%</div>
+                        </div>
+                        <h4>Liderazgo</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje liderazgo">70%</div>
+                        </div>
+                        <h4>Trabajo grupal</h4>
+                        <div class="container_habilidades">
+                            <div class="portcentaje grupal">65%</div>
+                        </div>
+                    </section> 
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <h2>Proyectos</h2>
+            <div class="projects">
+                <div class="project">
+                    <img class="img_proyect" src="/Imagenes/pctech.jpeg" alt="Proyecto 1">
+                    <div class="project-texto">
+                        <h3>Pc Tech</h3>
+                        <p>Este es un emprendimiento que comencé porque es algo que me apasiona y me gusta. Se basa en la reparación, limpieza y mantenimiento de equipos, ya sean laptops o PCs de escritorio.</p>
+                        <br>
+                        <a href="#" class="btn" onclick="toggleDetails(event)">Mas Detalles</a>
+                        <div class="project-details">
+                            <p>Empecé este emprendimiento en 2022. Después de trabajar con varios equipos y adquirir experiencia en la resolución de problemas, me propuse este desafío personal. Hoy en día, continúo con él no solo porque disfruto aprendiendo y trabajando en ello, sino también porque he ganado clientes satisfechos con mi trabajo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="img_proyect" src="/Imagenes/mental.JPG" alt="Proyecto 2">
+                    <div class="project-texto">
+                        <h3>Mental Strong</h3>
+                        <p>Mental Strong es un proyecto deportologico. Es un trabajo grupal que lo seguimos progresando en la actualidad, se basa en una aplicacion la cual es una ayuda nutricional o deportiva para los usuarios.</p>
+                        <br>
+                        <a href="#" class="btn" onclick="toggleDetails(event)">Mas Detalles</a>
+                        <div class="project-details">
+                            <p>Mental Strong es un proyecto gratuito de aplicación desktop. El objetivo de la app, es ayudar a las personas a conseguir su mejor versión. El usuario debera tener un logueo previo para poder disfrutar en su totalidad la aplicación.</p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="img_proyect" src="/Imagenes/cuva.JPG" alt="Proyecto 3">
+                    <div class="project-texto">
+                        <h3>C.U.V.A</h3>
+                        <p>En 2023, desarrollé el proyecto C.U.V.A., una página web dinámica dedicada al Club Unión Villa Adelina, un club de fútbol juvenil. Este sitio web fue diseñado como una plataforma donde se publicaban noticias y actualizaciones sobre el equipo.</p>
+                        <br>
+                        <a href="#" class="btn" onclick="toggleDetails(event)">Mas Detalles</a>
+                        <div class="project-details">
+                            <p>La web estaba equipada con características interactivas que permitían la publicación de noticias en tiempo real, la visualización de eventos próximos y la interacción con la comunidad del club. Además, la plataforma incluía secciones para la historia del club, perfiles de jugadores y galería de fotos, ofreciendo una visión completa de la vida y las actividades del Club Unión Villa Adelina.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="experiencia" class="content-section">
+            <h2>Experiencia laboral</h2>
+            <div class="content" id="exp-pctech">
+                <div class="content-texto" >
+                    <div class="titulo-box">Tecnico informatico</div>
+                    <br>
+                    <div class="text-box">Soy emprendedor de un proyecto personal. Un negocio enfocado en la reparación, mantenimiento y diagnóstico de computadoras. Desarrollé estrategias de marketing para promocionar mis servicios, destacando la atención al cliente y la calidad de los resultados. Después de trabajar con más de 20 equipos, pude aprender cómo trabajar y organizar mi negocio de manera exitosa hasta el momento.
+
+                        Tengo un registro detallado para la administración del negocio y búsqueda constante de oportunidades para mejorar mis habilidades técnicas y conocimiento del sector informático.</div>
+                </div>
+                <div class="image-box">
+                    <img class="imagen" src="/Imagenes/perfil ig.png" alt="Imagen">
+                </div>
+            </div>
+            <div class="content" id="exp-nuova">
+                <div class="image-box">
+                    <img class="imagen" src="/Imagenes/nuova2.png" alt="Imagen">
+                </div>
+                <div class="content-texto">
+                    <div class="titulo-box">Empleado de comercio</div>
+                    <br>
+                    <div class="text-box-izq">Empleado de comercio en local de ropa. Atención al cliente y cobro en caja. Desarrollé habilidades de interacción con el cliente y ofrecí resultados de calidad para el local.</div>
+                </div>
+            </div>
+            <div class="content" id="exp-mozo">
+                <div class="content-texto">
+                    <div class="titulo-box">Datos nutricionales</div>
+                    <br>
+                    <div class="text-box">Mozo de eventos. Servicio de comida y limpieza de utensilios. Interacción amable con los clientes y trabajo en equipo efectivo con otros compañeros.</div>
+                </div>
+                <div class="image-box">
+                    <img class="imagen" src="/Imagenes/mozo.png" alt="Imagen">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Axel Derfler. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
